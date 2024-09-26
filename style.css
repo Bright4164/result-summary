@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 420px;
+    height: 300px;
+}
+
+.main .result{
+    background: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 210px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.main .result h4{
+    text-align: center;
+    margin: 30px;
+    font-family: tahoma;
+    font-size: 13px;
+    color: hsla(0, 0%, 99%, 0.685);
+}
+
+.main .result .circle{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    font-size: 12px;
+    margin: 30px 30px 0px 45px;
+    color: hsla(0, 0%, 100%, 0.45);
+    border-radius: 100px;
+    padding-top: 20px;
+    font-family: tahoma;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.main .result .circle span{
+    font-size: 45px;
+    color: hsl(0, 0%, 100%);
+}
+
+.main .result .great{
+    text-align: center;
+    margin: 8px;
+    color: hsl(0, 0%, 100%);
+    font-family: arial;
+    font-size: 18px;
+}
+
+.main .result .text{
+    text-align: center;
+    font-size: 13px;
+    margin: 10px 0px 0px 25px;
+    color: hsla(0, 0%, 99%, 0.62);
+    width: 160px;
+}
+
+.main .summary .sum{
+    margin: 20px 0px 5px 0px;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.main .summary .reaction{
+    display: flex;
+    align-items: center;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 6%);
+    font-family: arial;
+    width: 100%;
+    height: 10%;
+    border-radius: 7px;
+    padding-left: 0px;
+    font-size: 11px;
+    margin: 10px 10px 10px 0px;
+}
+
+.main .summary .reaction img{
+    padding-right: 6px;
+    width: 20px;
+    margin-left: 5px;
+}
+
+.main .summary .reaction .num1{
+    color: black;
+    margin-left: 36px;
+}
+
+.main .summary .reaction span{
+    color: hsla(215, 8%, 53%, 0.817);
+}
+
+.main .summary .memory{
+    display: flex;
+    align-items: center;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 6%);
+    font-family: arial;
+    width: 100%;
+    height: 10%;
+    border-radius: 7px;
+    padding-left: 6px;
+    font-size: 11px;
+    margin: 16px 10px 10px 0px;
+    }
+
+    .main .summary .memory img{
+        padding-right: 7px;
+        width: 20px;
+    }
+    
+    .main .summary .memory .num2{
+        color: black;
+        margin-left: 40px;
+    }
+    
+    .main .summary .memory span{
+        color: hsla(215, 8%, 53%, 0.817);
+    }
+
+    .main .summary .verbal{
+        display: flex;
+        align-items: center;
+        color: hsl(166, 100%, 37%);
+        background-color: hsl(166, 100%, 37%, 6%);
+        font-family: arial;
+        width: 100%;
+        height: 10%;
+        border-radius: 7px;
+        padding-left: 14px;
+        font-size: 11px;
+        margin: 16px 10px 10px 0px;
+        }
+    
+        .main .summary .verbal img{
+            padding-right: 8px;
+            width: 20px;
+            margin-left: -5px;
+        }
+        
+        .main .summary .verbal .num3{
+            color: black;
+            margin-left: 48px;
+        }
+        
+        .main .summary .verbal span{
+            color: hsla(215, 8%, 53%, 0.817);
+        }
+
+        .main .summary .visual{
+            display: flex;
+            align-items: center;
+            color: hsl(234, 85%, 45%);
+            background-color: hsl(234, 85%, 45%, 6%);
+            font-family: arial;
+            width: 100%;
+            height: 10%;
+            border-radius: 7px;
+            padding-left: 19px;
+            font-size: 11px;
+            margin: 16px 10px 10px 0px;
+            }
+        
+            .main .summary .visual img{
+                padding-right: 4px;
+                width: 20px;
+                margin-left: -10px;
+            }
+            
+            .main .summary .visual .num4{
+                color: black;
+                margin-left: 50px;
+            }
+            
+            .main .summary .visual span{
+                color: hsla(215, 8%, 53%, 0.817);
+            }
+
+            .main .summary button{
+                text-align: center;
+                margin: 15px 5px 20px 5px;
+                width: 100%;
+                height: 10%;
+                border-radius: 50px;
+                border: none;
+                background-color: hsla(215, 96%, 11%, 0.817);
+                color: white;
+                font-family: arial;
+                font-size: 11px;
+            }
